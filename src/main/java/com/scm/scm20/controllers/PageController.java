@@ -19,12 +19,14 @@ public class PageController {
         System.out.println(10 * 20 + "Testing");   //200Testing
         System.out.println("Testing" + 10 * 20);    //Testing200
         System.out.println("home page controller");
-        System.out.println("this is out custom change");
         ArrayList <Integer> List= new ArrayList<>();
         List.add(1);
         List.add(2);
         List.set(1,4);
-        
+        // System.out.println(List);
+        // for(int i=0;i<=List.size();i++){
+        //     System.out.println(List.get(i));
+        // }
         for(int x: List){
             System.out.println(x);
         }
